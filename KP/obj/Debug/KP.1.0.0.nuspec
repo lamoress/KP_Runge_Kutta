@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>KP</id>
+    <version>1.0.0</version>
+    <authors>KP</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="DynamicExpresso.Core" version="2.17.2" exclude="Build,Analyzers" />
+        <dependency id="LiveCharts.WinForms" version="0.9.7.1" exclude="Build,Analyzers" />
+        <dependency id="System.Windows.Forms.DataVisualization" version="1.0.0-prerelease.20110.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ivan\source\repos\KP\KP\bin\Debug\net8.0-windows\win-x64\KP.runtimeconfig.json" target="lib\net8.0-windows7.0\KP.runtimeconfig.json" />
+    <file src="C:\Users\Ivan\source\repos\KP\KP\bin\Debug\net8.0-windows\win-x64\KP.dll" target="lib\net8.0-windows7.0\KP.dll" />
+  </files>
+</package>

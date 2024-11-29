@@ -1,0 +1,45 @@
+Дата: 28.11.2024 20:10:12
+Исключение: DynamicExpresso.Exceptions.UnknownIdentifierException
+Сообщение: Unknown identifier 'y3' (at index 20).
+Метод: System.Linq.Expressions.Expression ParseIdentifier()
+Стек вызовов:    at DynamicExpresso.Parsing.Parser.ParseIdentifier()
+   at DynamicExpresso.Parsing.Parser.ParsePrimary()
+   at DynamicExpresso.Parsing.Parser.ParseMultiplicative()
+   at DynamicExpresso.Parsing.Parser.ParseTypeTesting()
+   at DynamicExpresso.Parsing.Parser.ParseComparison()
+   at DynamicExpresso.Parsing.Parser.ParseConditional()
+   at DynamicExpresso.Parsing.Parser.ParseAssignment()
+   at DynamicExpresso.Parsing.Parser.ParseExpressionSegment()
+   at DynamicExpresso.Interpreter.ParseAsLambda(String expressionText, Type expressionType, Parameter[] parameters)
+   at KP.EquationParser.ParseEquation(String equationText, Int32 numVariables) in C:\Users\Ivan\source\repos\KP\KP\EquationParser.cs:line 41
+--------------------------------------------------------------------------------
+Дата: 28.11.2024 20:10:20
+Исключение: DynamicExpresso.Exceptions.UnknownIdentifierException
+Сообщение: Unknown identifier 'y2авомвам' (at index 20).
+Метод: System.Linq.Expressions.Expression ParseIdentifier()
+Стек вызовов:    at DynamicExpresso.Parsing.Parser.ParseIdentifier()
+   at DynamicExpresso.Parsing.Parser.ParsePrimary()
+   at DynamicExpresso.Parsing.Parser.ParseMultiplicative()
+   at DynamicExpresso.Parsing.Parser.ParseTypeTesting()
+   at DynamicExpresso.Parsing.Parser.ParseComparison()
+   at DynamicExpresso.Parsing.Parser.ParseConditional()
+   at DynamicExpresso.Parsing.Parser.ParseAssignment()
+   at DynamicExpresso.Parsing.Parser.ParseExpressionSegment()
+   at DynamicExpresso.Interpreter.ParseAsLambda(String expressionText, Type expressionType, Parameter[] parameters)
+   at KP.EquationParser.ParseEquation(String equationText, Int32 numVariables) in C:\Users\Ivan\source\repos\KP\KP\EquationParser.cs:line 41
+--------------------------------------------------------------------------------
+Дата: 28.11.2024 20:10:32
+Исключение: DynamicExpresso.Exceptions.UnknownIdentifierException
+Сообщение: Unknown identifier 'вв' (at index 8).
+Метод: System.Linq.Expressions.Expression ParseIdentifier()
+Стек вызовов:    at DynamicExpresso.Parsing.Parser.ParseIdentifier()
+   at DynamicExpresso.Parsing.Parser.ParsePrimary()
+   at DynamicExpresso.Parsing.Parser.ParseMultiplicative()
+   at DynamicExpresso.Parsing.Parser.ParseTypeTesting()
+   at DynamicExpresso.Parsing.Parser.ParseComparison()
+   at DynamicExpresso.Parsing.Parser.ParseConditional()
+   at DynamicExpresso.Parsing.Parser.ParseAssignment()
+   at DynamicExpresso.Parsing.Parser.ParseExpressionSegment()
+   at DynamicExpresso.Interpreter.ParseAsLambda(String expressionText, Type expressionType, Parameter[] parameters)
+   at KP.EquationParser.ParseEquation(String equationText, Int32 numVariables) in C:\Users\Ivan\source\repos\KP\KP\EquationParser.cs:line 41
+--------------------------------------------------------------------------------
